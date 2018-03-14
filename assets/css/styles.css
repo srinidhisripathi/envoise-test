@@ -100,7 +100,7 @@ body {
   color: #FFFFFF;
 }
 
-  .tracker > li:nth-child(3n) {
+  .tracker > li:last-child {
     margin-right: 0;
   }
 
@@ -122,7 +122,3 @@ body {
   font-size: 14px;
   height: 36px;
   line-height: 34px;
-}
-.bottom > p {
-  opacity: 1;
-}
