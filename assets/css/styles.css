@@ -73,3 +73,56 @@ body {
             color: #555555;
             text-decoration: none;
          }
+
+.dashboard {
+  padding-top: 30px;
+}
+
+.date {
+  color: #656565;
+  font-size: 13px;
+}
+
+.tracker {
+  padding-top: 13px;
+}
+
+.tracker > li {
+  width: 278px;
+  height: 170px;
+  display: block;
+  float: left;
+  text-align: center;
+  line-height: 132px;
+  font-size: 40px;
+  margin-right: 13px;
+  border-radius: 3px;
+  color: #FFFFFF;
+}
+
+  .tracker > li:nth-child(3n) {
+    margin-right: 0;
+  }
+
+.pending {
+  background-color: #F7D17F;
+}
+
+.paid {
+  background-color: #4DC45F;
+}
+
+.overdue {
+  background-color: #D6D6D6;
+}
+
+.bottom {
+  background-color: rgba(255,255,255,0.13);
+  border-bottom: 1px solid rgba(255,255,255,0.13);
+  font-size: 14px;
+  height: 36px;
+  line-height: 34px;
+}
+.bottom > p {
+  opacity: 1;
+}
