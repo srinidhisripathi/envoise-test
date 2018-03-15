@@ -161,6 +161,7 @@ body {
 
 .content {
   overflow: hidden;
+  font-weight: 300;
 }
 
 .line1 {
@@ -284,4 +285,8 @@ body {
   line-height: 34px;
   text-align: center;
   margin-top: -10px;
+}
+
+.bold {
+  font-weight: 500;
 }
